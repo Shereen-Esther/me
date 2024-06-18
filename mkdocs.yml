@@ -1,0 +1,115 @@
+site_name: Shereen's Portfolio
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: black
+  language: en
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - navigation.expand
+    - search.highlight
+    - search.share
+    - search.suggest
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      auto_append:
+        - abbreviations.md
+# extra_css:
+#   - stylesheets/extra.min.css
+#   - stylesheets/bootstrap-grid.min.css
+#   - stylesheets/skills.css
+
+nav:
+  - Home:
+    - About: 'index.md'
+    - Education: 'Home/Education/index.md'
+  - Skills:
+    - All Skills: 'Skills/index.md'
+    - Web Technologies: 'Skills/Web Technologies/index.md'
+    - Databases: 'Skills/Databases/index.md'
+    - Operating Systems: 'Skills/Operating Systems/index.md'
+    - Code Repositories: 'Skills/Code Repositories/index.md'
+    - Frameworks: 'Skills/Frameworks/index.md'
+    - Package Managers: 'Skills/Package Managers/index.md'
+    - IDEs: 'Skills/IDEs/index.md'
+    - Other Skills: 'Skills/Other Skills/index.md'
+  - Experience:
+    - Surfboard Payments: 'Experience/Surfboard Payments/index.md'
+    - Wipro Limited: 'Experience/Wipro Limited/index.md'
+    - HP Enterprise: 'Experience/HP Enterprise/index.md'
+  - Projects:
+    - All Projects: 'Projects/index.md'
+    - Web Projects:
+      - Angular: ''
+      - ASP.NET: ''
+      - Other: ''
+    - Machine Learning Projects: 'Projects/ML projects/index.md'
+  - Contact: 'Contact/index.md'
+  # - Frontend:
+  #     - Scaffold angular: 'pages/frontend/scaffold-angular/index.md'
+  #     - Testing angular: 'pages/frontend/testing-angular/index.md'
+  #     - RxJS: 'pages/frontend/rxjs/index.md'
+  #     - Micro frontend: 'pages/frontend/micro-frontend/index.md'
+  # - Backend:
+  #     - Hexagonal architecture: 'pages/backend/hexagonal-architecture/index.md'
+  #     - Scaffold hexagon spring-boot: 'pages/backend/scaffold-hexagon-spring-boot/index.md'
+  # - Mac:
+  #     - Homebrew: 'pages/mac/homebrew/index.md'
+  # - Tools:
+  #     - Git: 'pages/tools/git/index.md'
+  #     - SDKMAN: 'pages/tools/sdkman/index.md'
+  #     - JDK: 'pages/tools/jdk/index.md'
+  #     - Maven: 'pages/tools/maven/index.md'
+  #     - Gradle: 'pages/tools/gradle/index.md'
+  #     - Node: 'pages/tools/node/index.md'
+  #     - Yarn: 'pages/tools/yarn/index.md'
+  # - Tips & Tricks:
+  #     - IntelliJ: 'pages/tips-and-tricks/intellij/index.md'
