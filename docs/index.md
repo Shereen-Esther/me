@@ -1,7 +1,7 @@
 <!-- ![Alt text](/assets/Shereen_SCasual.png) -->
 <figure markdown="span">
-  <img src="/assets/Shereen_SCasual.png" alt="Image title" style="width: 400px; border-radius: 10px;">
-  <!-- <figcaption>Shereen Esther Jubal</figcaption> -->
+  ![Image title](/assets/Shereen_SCasual.png){ width="400" }
+  <figcaption>Shereen Esther Jubal</figcaption>
 </figure>
 I am Shereen, a dedicated Software Engineer with over 3+ years of experience in web development, specializing in Angular, HTML, CSS3, JavaScript, TypeScript, Java, SQL, and NoSQL databases like Firebase. I have a proven track record of leading and mentoring teams, achieving project milestones with high-quality results. My strong problem-solving skills, innovative mindset, and attention to detail ensure effective project execution.
 
