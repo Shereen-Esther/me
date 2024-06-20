@@ -1,0 +1,43 @@
+@media screen and (min-width: 60em) {
+    .md-sidebar--secondary:not([hidden]) {
+        display: none !important;
+    }
+}
+[data-md-color-scheme="slate"] {
+    /* --md-hue: ;  */
+}
+body {
+    /* background-color: #b3d0c6;
+    color: black; */
+}
+:root {
+    --md-primary-fg-color:        #1b4543;
+    /* --md-primary-fg-color: #8fbbaf; */
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+}
+.md-footer {
+    /* background-color: #7E56C2;  */
+    color: white;
+}
+.md-typeset__table {
+    display: inline-block;
+    margin-bottom: 0.5em;
+    padding: 0 0.8rem;
+    width: 100%;
+}
+.md-typeset table:not([class]) {
+    background-color: var(--md-default-bg-color);
+    border: 0.05rem solid var(--md-typeset-table-color);
+    border-radius: 0.1rem;
+    font-size: .64rem;
+    max-width: 100%;
+    overflow: auto;
+    touch-action: auto;
+}
+/* th, td {
+    width: 50%;
+} */
+/* .skills {
+    color: teal;
+} */

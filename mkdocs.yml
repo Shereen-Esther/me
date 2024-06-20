@@ -1,9 +1,10 @@
 site_name: Shereen's Portfolio
 theme:
   name: material
+  logo: 'assets/logo.png'
   palette:
-    scheme: slate
-    primary: black
+    # scheme: slate
+    primary: custom
   language: en
   features:
     - content.code.copy
@@ -19,7 +20,6 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
-
 markdown_extensions:
   - admonition
   - abbr
@@ -62,7 +62,11 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - abbreviations.md
-# extra_css:
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js 
+extra_css:
+  - stylesheets/custom.css
 #   - stylesheets/extra.min.css
 #   - stylesheets/bootstrap-grid.min.css
 #   - stylesheets/skills.css
@@ -71,6 +75,7 @@ nav:
   - Home:
     - About: 'index.md'
     - Education: 'Home/Education/index.md'
+    - Contact: 'Home/Contact/index.md'
   - Skills:
     - All Skills: 'Skills/index.md'
     - Web Technologies: 'Skills/Web Technologies/index.md'
@@ -92,7 +97,6 @@ nav:
       - ASP.NET: ''
       - Other: ''
     - Machine Learning Projects: 'Projects/ML projects/index.md'
-  - Contact: 'Contact/index.md'
   # - Frontend:
   #     - Scaffold angular: 'pages/frontend/scaffold-angular/index.md'
   #     - Testing angular: 'pages/frontend/testing-angular/index.md'
