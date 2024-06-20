@@ -3,41 +3,83 @@
         display: none !important;
     }
 }
+
 [data-md-color-scheme="slate"] {
     /* --md-hue: ;  */
 }
+
 body {
-    /* background-color: #b3d0c6;
-    color: black; */
+    /* background-color: whitesmoke; */
 }
+
 :root {
-    --md-primary-fg-color:        #1b4543;
-    /* --md-primary-fg-color: #8fbbaf; */
+    --md-primary-fg-color: #789796;
     --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #90030C;
+    --md-primary-fg-color--dark: #90030C;
 }
+
 .md-footer {
-    /* background-color: #7E56C2;  */
     color: white;
 }
-.md-typeset__table {
-    display: inline-block;
-    margin-bottom: 0.5em;
-    padding: 0 0.8rem;
+
+th {
+    background-color: #38618cb7;
+    font-size: medium;
+    color: white;
+}
+
+.education-heading {
+    height: 40px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #38618cb7;
+    color: white;
+    margin-top: 40px;
+    align-items: center;
 }
-.md-typeset table:not([class]) {
-    background-color: var(--md-default-bg-color);
-    border: 0.05rem solid var(--md-typeset-table-color);
+
+.education-content {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px rgba(128, 128, 128, 0.293);
+    align-items: center;
+}
+::selection {
+    background: #38618cf4; /* Highlight color */
+    color: white; /* Text color within highlight */
+}
+table {
+    border-collapse: collapse;
+}
+
+table td, table th {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.grid td {
+    display: none;
+  }
+  .grid th {
+    width: 15vw;
+    /* background-color: #F0BE6F;  */
+    /* color: black; */
+  }
+/*   
+  .card {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .md-typeset .grid.cards>ol>li, .md-typeset .grid.cards>ul>li, .md-typeset .grid>.card {
+    border: 0.05rem solid var(--md-default-fg-color--lightest);
     border-radius: 0.1rem;
-    font-size: .64rem;
-    max-width: 100%;
-    overflow: auto;
-    touch-action: auto;
-}
-/* th, td {
-    width: 50%;
-} */
-/* .skills {
-    color: teal;
+    display: flex;
+    margin: 0;
+    padding: 0.8rem;
+    transition: border .25s,box-shadow .25s;
+    width: 30%;
 } */
