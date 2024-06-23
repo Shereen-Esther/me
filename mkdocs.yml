@@ -1,4 +1,4 @@
-site_name: Shereen's PORTFOLIO
+site_name: Shereen ESTHER
 theme:
   name: material
   logo: 'assets/logo.png'
@@ -82,48 +82,25 @@ extra_css:
 #   - stylesheets/skills.css
 
 nav:
-  - Home:
-    - About Me: 'index.md'
-    - Education: 'Home/Education/index.md'
-    - Contact: 'Home/Contact/index.md'
+  - About me: 'index.md'
   - Skills:
-    - All Skills: 'Skills/index.md'
-    - Web Technologies: 'Skills/Web Technologies/index.md'
-    - Databases: 'Skills/Databases/index.md'
-    - Operating Systems: 'Skills/Operating Systems/index.md'
-    - Code Repositories: 'Skills/Code Repositories/index.md'
-    - Frameworks: 'Skills/Frameworks/index.md'
-    - Package Managers: 'Skills/Package Managers/index.md'
-    - IDEs: 'Skills/IDEs/index.md'
-    - Other Skills: 'Skills/Other Skills/index.md'
+    - All Skills: 'pages/skills/index.md'
+    - Web Technologies: 'pages/skills/Web Technologies/index.md'
+    - Databases: 'pages/skills/Databases/index.md'
+    - Operating Systems: 'pages/skills/Operating Systems/index.md'
+    - Code Repositories: 'pages/skills/Code Repositories/index.md'
+    - Frameworks: 'pages/skills/Frameworks/index.md'
+    - Package Managers: 'pages/skills/Package Managers/index.md'
+    - IDEs: 'pages/skills/IDEs/index.md'
+    - Other Skills: 'pages/skills/Other Skills/index.md'
   - Experience:
-    - Surfboard Payments: 'Experience/Surfboard Payments/index.md'
-    - Wipro Limited: 'Experience/Wipro Limited/index.md'
-    - HP Enterprise: 'Experience/HP Enterprise/index.md'
+    - Surfboard Payments: 'pages/experience/Surfboard Payments/index.md'
+    - Wipro Limited: 'pages/experience/Wipro Limited/index.md'
+    - HP Enterprise: 'pages/experience/HP Enterprise/index.md'
   - Projects:
-    - All Projects: 'Projects/index.md'
+    - All Projects: 'pages/projects/index.md'
     - Web Projects:
-      - Angular: 'Projects/Web Projects/angular.md'
-      - ASP.NET: 'Projects/Web Projects/aspnet.md'
-      - Other: 'Projects/Web Projects/other.md'
+      - Angular: 'pages/projects/Web Projects/angular.md'
+      - ASP.NET: 'pages/projects/Web Projects/aspnet.md'
+      - Other: 'pages/projects/Web Projects/other.md'
     - Machine Learning Projects: 'Projects/ML projects/index.md'
-  # - Frontend:
-  #     - Scaffold angular: 'pages/frontend/scaffold-angular/index.md'
-  #     - Testing angular: 'pages/frontend/testing-angular/index.md'
-  #     - RxJS: 'pages/frontend/rxjs/index.md'
-  #     - Micro frontend: 'pages/frontend/micro-frontend/index.md'
-  # - Backend:
-  #     - Hexagonal architecture: 'pages/backend/hexagonal-architecture/index.md'
-  #     - Scaffold hexagon spring-boot: 'pages/backend/scaffold-hexagon-spring-boot/index.md'
-  # - Mac:
-  #     - Homebrew: 'pages/mac/homebrew/index.md'
-  # - Tools:
-  #     - Git: 'pages/tools/git/index.md'
-  #     - SDKMAN: 'pages/tools/sdkman/index.md'
-  #     - JDK: 'pages/tools/jdk/index.md'
-  #     - Maven: 'pages/tools/maven/index.md'
-  #     - Gradle: 'pages/tools/gradle/index.md'
-  #     - Node: 'pages/tools/node/index.md'
-  #     - Yarn: 'pages/tools/yarn/index.md'
-  # - Tips & Tricks:
-  #     - IntelliJ: 'pages/tips-and-tricks/intellij/index.md'
