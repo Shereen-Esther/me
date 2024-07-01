@@ -22,4 +22,4 @@ I have a <b>Master of Science in Computer Science from Wright State University, 
 - [:envelope: shereenjubal1@gmail.com](mailto:shereenjubal1@gmail.com)
 - [:fontawesome-brands-linkedin: ./shereen-jubal](https://www.linkedin.com/in/shereen-jubal/)
 
-[Checkout my CV](#){ .md-button .md-button--primary }
+[Checkout my CV](https://shereen-jubal-resume.tiiny.site/){ .md-button .md-button--primary }
